@@ -1,28 +1,39 @@
-<!DOCTYPE css>
 body {
 
 }
 
 h1 {
-
+	font-size: 60px;
+	font-family: sans-serif;
 }
 
 h2 {
-
+	font-size: 40px;
+	font-family: sans-serif;
 }
 
 h3 {
-
+	font-size: 35px;
+	font-family: sans-serif;
 }
 
 h4 {
-
+	font-size: 40px;
+	font-family: sans-serif;
 }
 
 p {
+	font-size: 20px;
+}
 
+dt {
+	font-size: 20px;
+}
+
+dd {
+	font-size: 20px;
 }
 
 img {
-
+	float: right;
 }
