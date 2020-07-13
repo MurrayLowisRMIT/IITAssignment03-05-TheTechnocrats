@@ -5,6 +5,10 @@ body {
 	background-color: #fff;
 }
 
+body.iframe {
+	padding: 0;
+}
+
 h1 {
 	text-align: center;
 	margin: auto;
@@ -24,7 +28,7 @@ h2 {
 
 h3 {
 	text-align: center;
-	font-size: 35px;
+	font-size: 25px;
 	font-family: sans-serif;
 	padding: 0 0 15px 0;
 	margin: 0 30% 0 0;
@@ -69,7 +73,7 @@ div.header ul a {
 
 .contents {
 	padding: 0;
-	min-height: 400px;
+	min-height: 700px;
 	overflow: auto;
 }
 
@@ -82,28 +86,27 @@ iframe {
 	padding: 0;
 }
 
-ul.assignment1Sites {
+ul.pageTabs {
 	width: 16%;
 	list-style-type: none;
 	margin: 0 0 0 2%;
 	padding: 0;
 }
 
-ul.assignment1Sites a {
+ul.pageTabs a {
 	font-size: 35px;
 	font-weight: bold;
 	font-family: sans-serif;
 	text-decoration: none;
 	text-align: right;
 	display: block;
-	background-image: linear-gradient(to right, #ffd0ffff, #ffa0ffff);
+	background-image: linear-gradient(to right, #fff0, #8884);
 	margin: 0 0 2px 0;
 	padding: 10px 10px 0 0;
 }
 
-ul.assignment1Sites a:hover {
-	background-image: linear-gradient(to left, #ff80ffff, #0000);
-	color: #800080;
+ul.pageTabs a:hover {
+	background-image: linear-gradient(to right, #fff0, #fffb);
 }
 
 div.footerSpacer {
@@ -198,4 +201,8 @@ a.assignment1:hover {
 a.references:hover {
 	background-image: linear-gradient(#808080ff, #0000);
 	color: #505050;
+}
+
+.iframe {
+	width: 100%;
 }
