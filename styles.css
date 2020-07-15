@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0 5%;
 	width: 90%;
-	background-color: #fff;
+	background-color: #000; /*this needs to match colour for .header and div.footerSpacer*/
 }
 
 .iframe {
@@ -15,8 +15,7 @@ h1 {
 	margin: auto;
 	font-size: 60px;
 	font-family: sans-serif;
-	color: #000;
-	background-color: #fff;
+	padding: 50px 0;
 }
 
 h2 {
@@ -45,12 +44,11 @@ p {
 
 .header {
 	position: sticky;
-	background-color: #fff;
-	height: 51px;
+	background-color: #000; /*!this needs to match colour for body and div.footerSpacer;*/
+	height: 3vw;
 	width: 100%;
 	padding: 0;
 	top: 0;
-	z-index: 1;
 }
 
 div.header ul {
@@ -60,20 +58,40 @@ div.header ul {
 }
 
 div.header ul a {
-	font-size: 25px;
+	font-size: 1.3vw;
 	font-weight: bold;
 	font-family: sans-serif;
-	background-image: none;
 	text-decoration: none;
+	text-shadow: 0 0 0.5vw #fff;
 	text-align: center;
-	border-radius: 10px 10px 0 0;
-	padding: 10px 0;
-	float: left;
+	background-image: none;
+	border-radius: 1vw 1vw 0 0;
 	width: 12.5%;
+	height: 1.3vw;
+	padding: 0.85vw 0;
+	float: left;
+}
+
+.gallery {
+	width: 30%;
+	margin: 0 0 0 2.5%;
+	float: left;
+}
+
+.gallery img {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	height: 250px;
+}
+
+.gallery h2 {
+	margin: 0;
+	padding: 0;
 }
 
 .contents {
-	padding: 0;
 	min-height: 700px;
 	overflow: auto;
 }
@@ -99,9 +117,9 @@ ul.pageTabs a {
 	font-weight: bold;
 	font-family: sans-serif;
 	text-decoration: none;
+	text-shadow: 0 0 0.5vw #fff;
 	text-align: right;
 	display: block;
-	background-image: linear-gradient(to right, #fff0, #8884);
 	margin: 0 0 2px 0;
 	padding: 10px 10px 0 0;
 }
@@ -113,12 +131,11 @@ ul.pageTabs a:hover {
 div.footerSpacer {
 	height: 250px;
 	margin: 0 0 50px 0;
-	background-image: linear-gradient(#fff0, #fff);
+	background-image: linear-gradient(#0000, #000); /*last colour needs to match colour for body and .header;*/
 }
 
 .home {
 	background-color: #ffd0d0;
-	background-image: linear-gradient(#ffd0d0, #ffd0d000);
 	color: #b00000;
 }
 
@@ -129,7 +146,6 @@ a.home:hover {
 
 .teamProfile {
 	background-color: #ffd0a0;
-	background-image: linear-gradient(#ffd0a0ff, #ffd0a0ff);
 	color: #c06000;
 }
 
@@ -140,7 +156,6 @@ a.teamProfile:hover {
 
 .industryData {
 	background-color: #ffffd0;
-	background-image: linear-gradient(#ffffd0ff, #0000);
 	color: #b0b000;
 }
 
@@ -151,7 +166,6 @@ a.industryData:hover {
 
 .ITWork {
 	background-color: #d0ffd0;
-	background-image: linear-gradient(#d0ffd0ff, #0000);
 	color: #00b000;
 }
 
@@ -162,7 +176,6 @@ a.ITWork:hover {
 
 .ITTechnologies {
 	background-color: #d0ffff;
-	background-image: linear-gradient(#d0ffffff, #0000);
 	color: #00b0b0;
 }
 
@@ -173,7 +186,6 @@ a.ITTechnologies:hover {
 
 .projectIdea {
 	background-color: #d0d0ff;
-	background-image: linear-gradient(#d0d0ffff, #0000);
 	color: #0000b0;
 }
 
@@ -184,7 +196,6 @@ a.projectIdea:hover {
 
 .assignment1 {
 	background-color: #ffd0ff;
-	background-image: linear-gradient(#ffd0ffff, #0000);
 	color: #b000b0;
 }
 
@@ -195,7 +206,6 @@ a.assignment1:hover {
 
 .references {
 	background-color: #b0b0b0;
-	background-image: linear-gradient(#b0b0b0ff, #0000);
 	color: #707070;
 }
 
