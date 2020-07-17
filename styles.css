@@ -16,6 +16,7 @@ h1 {
 	font-size: 60px;
 	font-family: sans-serif;
 	padding: 50px 0;
+	margin: 0 30% 0 0;
 }
 
 h2 {
@@ -72,6 +73,29 @@ div.header ul a {
 	float: left;
 }
 
+div.contentsList {
+	overflow: auto;
+	padding: 0 0 1% 0;
+}
+
+div.contentsList ul {
+	float: left;
+	width: 44%;
+	padding: 0 0 0 6%;
+	margin: 0;
+}
+
+div.contentsList ol {
+	float: left;
+	width: 44%;
+	padding: 0 0 0 6%;
+	margin: 0;
+}
+
+div.contentsList p {
+	padding: 0;
+}
+
 .gallery {
 	width: 30%;
 	margin: 0 0 0 2.5%;
@@ -89,6 +113,13 @@ div.header ul a {
 .gallery h2 {
 	margin: 0;
 	padding: 0;
+}
+
+.gallery p {
+	color: #000b;
+	text-align: center;
+	margin: auto;
+	padding: 0 15%;
 }
 
 .contents {
