@@ -43,6 +43,15 @@ p {
 	margin: 0 30% 0 0;
 }
 
+p.quote {
+	color: #3338;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-style: italic;
+	padding: 0 3% 20px 6%;
+	margin: 0 30% 0 0;
+}
+
 .header {
 	position: sticky;
 	background-color: #000; /*!this needs to match colour for body and div.footerSpacer;*/
