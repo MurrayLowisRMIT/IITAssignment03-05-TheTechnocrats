@@ -1,13 +1,13 @@
+.colours {
+	background-color: #ddd;
+	color: #500050;
+}
+
 body {
 	margin: 0;
 	padding: 0 5%;
 	width: 90%;
-	background-color: #000; /*this needs to match colour for .header and div.footerSpacer*/
-}
-
-.iframe {
-	padding: 0;
-	width: 100%;
+	background-color: #333; /*!this needs to match colour for .header and div.footerSpacer;*/
 }
 
 h1 {
@@ -16,7 +16,6 @@ h1 {
 	font-size: 60px;
 	font-family: sans-serif;
 	padding: 50px 0;
-	margin: 0 30% 0 0;
 }
 
 h2 {
@@ -24,7 +23,6 @@ h2 {
 	font-size: 40px;
 	font-family: sans-serif;
 	padding: 20px 3% 10px 3%;
-	margin: 0 30% 0 0;
 }
 
 h3 {
@@ -32,7 +30,6 @@ h3 {
 	font-size: 25px;
 	font-family: sans-serif;
 	padding: 0 0 15px 0;
-	margin: 0 30% 0 0;
 }
 
 p {
@@ -43,18 +40,15 @@ p {
 	margin: 0 30% 0 0;
 }
 
-p.quote {
+p.emphasis {
 	color: #3338;
-	font-size: 20px;
-	font-family: sans-serif;
-	font-style: italic;
 	padding: 0 3% 20px 6%;
 	margin: 0 30% 0 0;
 }
 
 .header {
 	position: sticky;
-	background-color: #000; /*!this needs to match colour for body and div.footerSpacer;*/
+	background-color: #333; /*!this needs to match colour for body and div.footerSpacer;*/
 	height: 3vw;
 	width: 100%;
 	padding: 0;
@@ -67,49 +61,49 @@ div.header ul {
 	margin: 0;
 }
 
-div.header ul a {
+div.header a {
 	font-size: 1.3vw;
 	font-weight: bold;
 	font-family: sans-serif;
 	text-decoration: none;
 	text-shadow: 0 0 0.5vw #fff;
 	text-align: center;
-	background-image: none;
+	background-color: #888;
 	border-radius: 1vw 1vw 0 0;
-	width: 12.5%;
+	width: 14.2857%;
 	height: 1.3vw;
 	padding: 0.85vw 0;
 	float: left;
+	color: #600060;
 }
 
-div.contentsList {
+.header a:hover {
+	background-image: linear-gradient(#90009030, #0000);
+}
+
+.header a.active {
+  background-color: #ddd
+}
+
+!div.contentsList {
 	overflow: auto;
 	padding: 0 0 1% 0;
 }
 
-div.contentsList ul.profileList {
+!div.contentsList ul {
 	list-style-type: none;
 	float: left;
-	width: 20%;
 	padding: 0 0 0 6%;
 	margin: 0;
 }
 
-div.contentsList ul.projectList {
+!div.contentsList ol {
 	float: left;
-	width: 44%;
 	padding: 0 0 0 6%;
 	margin: 0;
 }
 
-div.contentsList ol {
-	float: left;
-	width: 50%;
-	padding: 0 0 0 6%;
-	margin: 0;
-}
-
-div.contentsList p {
+!div.contentsList p {
 	padding: 0;
 }
 
@@ -144,120 +138,8 @@ div.contentsList p {
 	overflow: auto;
 }
 
-iframe {
-	float: right;
-	border: none;
-	width: 80%;
-	height: 700px;
-	margin: 0 2% 0 0;
-	padding: 0;
-}
-
-ul.pageTabs {
-	width: 16%;
-	list-style-type: none;
-	margin: 0 0 0 2%;
-	padding: 0;
-}
-
-ul.pageTabs a {
-	font-size: 35px;
-	font-weight: bold;
-	font-family: sans-serif;
-	text-decoration: none;
-	text-shadow: 0 0 0.5vw #fff;
-	text-align: right;
-	display: block;
-	margin: 0 0 2px 0;
-	padding: 10px 10px 0 0;
-}
-
-ul.pageTabs a:hover {
-	background-image: linear-gradient(to right, #fff0, #fffb);
-}
-
 div.footerSpacer {
 	height: 250px;
 	margin: 0 0 50px 0;
-	background-image: linear-gradient(#0000, #000); /*last colour needs to match colour for body and .header;*/
-}
-
-.home {
-	background-color: #ffd0d0;
-	color: #b00000;
-}
-
-a.home:hover {
-	background-image: linear-gradient(#ff9090, #ffd0d0);
-	color: #800000;
-}
-
-.teamProfile {
-	background-color: #ffd0a0;
-	color: #c06000;
-}
-
-a.teamProfile:hover {
-	background-image: linear-gradient(#ffb070, #0000);
-	color: #b05000;
-}
-
-.industryData {
-	background-color: #ffffd0;
-	color: #b0b000;
-}
-
-a.industryData:hover {
-	background-image: linear-gradient(#ffff50ff, #0000);
-	color: #a0a000;
-}
-
-.ITWork {
-	background-color: #d0ffd0;
-	color: #00b000;
-}
-
-a.ITWork:hover {
-	background-image: linear-gradient(#70ff70ff, #0000);
-	color: #008000;
-}
-
-.ITTechnologies {
-	background-color: #d0ffff;
-	color: #00b0b0;
-}
-
-a.ITTechnologies:hover {
-	background-image: linear-gradient(#50ffffff, #0000);
-	color: #008080;
-}
-
-.projectIdea {
-	background-color: #d0d0ff;
-	color: #0000b0;
-}
-
-a.projectIdea:hover {
-	background-image: linear-gradient(#8080ffff, #0000);
-	color: #000080;
-}
-
-.assignment1 {
-	background-color: #ffd0ff;
-	color: #b000b0;
-}
-
-a.assignment1:hover {
-	background-image: linear-gradient(#ff80ffff, #0000);
-	color: #800080;
-}
-
-.references {
-	background-color: #b0b0b0;
-	color: #707070;
-}
-
-a.references:hover {
-	background-image: linear-gradient(#808080ff, #0000);
-	color: #505050;
+	background-image: linear-gradient(#0000, #333); /*last colour needs to match colour for body and .header;*/
 }
