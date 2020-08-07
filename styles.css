@@ -85,28 +85,6 @@ div.header a {
   background-color: #ddd
 }
 
-!div.contentsList {
-	overflow: auto;
-	padding: 0 0 1% 0;
-}
-
-!div.contentsList ul {
-	list-style-type: none;
-	float: left;
-	padding: 0 0 0 6%;
-	margin: 0;
-}
-
-!div.contentsList ol {
-	float: left;
-	padding: 0 0 0 6%;
-	margin: 0;
-}
-
-!div.contentsList p {
-	padding: 0;
-}
-
 .gallery {
 	width: 30%;
 	margin: 0 0 0 2.5%;
