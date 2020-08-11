@@ -1,8 +1,6 @@
 Add to this file when you upload something of significance to the repository. I will reference this file when putting together the GitHub audit commentary section
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-up to 10/8/20
-All previous uploads
 
-10/8/20 – Murray
-Added some transferrable content from A2 to report
+11/8/20 – Murray
+Updated report design elements and added transferrable content from A2
 
