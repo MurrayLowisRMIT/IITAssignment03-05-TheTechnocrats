@@ -1,6 +1,6 @@
-.colours {
+div {
 	background-color: #ddd;
-	color: #500050;
+	color: #6e2677;
 }
 
 body {
@@ -36,14 +36,14 @@ p {
 	color: #0008;
 	font-size: 20px;
 	font-family: sans-serif;
-	padding: 0 3% 20px 3%;
-	margin: 0 30% 0 0;
+	padding: 0 0 20px 0;
+	margin: 0 30%;
 }
 
 p.emphasis {
 	color: #3338;
 	padding: 0 3% 20px 6%;
-	margin: 0 30% 0 0;
+	margin: 0 30%;
 }
 
 .header {
@@ -82,38 +82,64 @@ div.header a {
 }
 
 .header a.active {
-  background-color: #ddd
+	background-color: #ddd;
+}
+
+.contents {
+	min-height: 700px;
+	overflow: auto;
+}
+
+.inLine {
+	display: block;
+	max-width: 40%;
+	margin: auto;
+	padding: 0 0 20px 0;
+}
+
+.side {
+	display: block;
+	width: 26%;
+	padding: 0;
+	margin: 0 2%;
+}
+
+.side img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+.side p {
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	font-weight: bold;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
 }
 
 .gallery {
-	width: 30%;
-	margin: 0 0 0 2.5%;
+	width: 33.333333%;
 	float: left;
+	margin: 20px 0;
 }
 
 .gallery img {
 	display: block;
 	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 50px;
 	height: 250px;
 }
 
 .gallery h2 {
 	margin: 0;
 	padding: 0;
-}
-
-.gallery p {
-	color: #000b;
-	text-align: center;
-	margin: auto;
-	padding: 0 15%;
-}
-
-.contents {
-	min-height: 700px;
-	overflow: auto;
 }
 
 div.footerSpacer {
