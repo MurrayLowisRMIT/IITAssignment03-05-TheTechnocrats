@@ -19,9 +19,5 @@ Added headings for my sections
 14/8/20 - Ossama
 Added personal information and career plans
 
-14/08/20 - Murray
-Draft script for presentation
-
 15/8/20 - Joe
-V/ery minor update on testing incorporating Stage 1/Stage 2
-
+Very minor update on testing incorporating Stage 1/Stage 2
