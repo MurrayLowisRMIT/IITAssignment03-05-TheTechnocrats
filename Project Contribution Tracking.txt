@@ -39,3 +39,6 @@ Fleshed out bullet points into structured report
 
 21/8/20 - Joe
 Updated almost all of Joe's sections
+
+21/8/20 - Ossama
+Updated Topic and Motivation sections
