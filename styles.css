@@ -62,7 +62,7 @@ div.header ul {
 }
 
 div.header a {
-	font-size: 1.3vw;
+	font-size: 1.1vw;
 	font-weight: bold;
 	font-family: sans-serif;
 	text-decoration: none;
@@ -70,7 +70,7 @@ div.header a {
 	text-align: center;
 	background-color: #888;
 	border-radius: 1vw 1vw 0 0;
-	width: 14.2857%;
+	width: 12.5%;
 	height: 1.3vw;
 	padding: 0.85vw 0;
 	float: left;
