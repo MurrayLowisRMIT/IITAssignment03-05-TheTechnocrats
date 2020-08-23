@@ -50,7 +50,7 @@ p {
 	margin: 0 30%;
 }
 
-p.emphasis {
+.emphasis {
 	color: #3338;
 	padding: 0 3% 20px 6%;
 	margin: 0 30%;
@@ -156,6 +156,22 @@ ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0 0 0 3%;
+}
+
+table {
+	width: 70%;
+	padding: 0 0 20px 0;
+	margin: 0 15%;
+}
+
+tr {
+	width: 70%;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+td.data {
+	color: #0008;
 }
 
 iframe {
